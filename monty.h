@@ -9,10 +9,10 @@
 #include <ctype.h>
 
 /**
- * struct stack_s - doubly linked list 
+ * struct stack_s - doubly linked list
  * @n: integer
- * @prev: points to the previous element 
- * @next: points to the next element 
+ * @prev: points to the previous element
+ * @next: points to the next element
  */
 
 typedef struct stack_s
@@ -27,7 +27,7 @@ typedef struct stack_s
  * @arg: value
  * @file: pointer to monty file
  * @content: line content
- * @lifi: flag change stack 
+ * @lifi: flag change stack
  */
 
 typedef struct bus_s
